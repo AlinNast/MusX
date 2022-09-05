@@ -1,10 +1,16 @@
 import Link from "next/link";
+import Head from 'next/head';
 import Image from "next/image";
 
 
 export default function EmptyScore() {
-    return(
+    return (
         <>
+            <Head>
+                <title>MusX Score</title>
+                <meta name="description" content="Database of Score Sheets" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <h1>Download and print theese empty scores and start writing music right away</h1>
 
             <Image

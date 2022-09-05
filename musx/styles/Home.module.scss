@@ -1,0 +1,23 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  
+}
+
+.gradientContainer{
+  padding: 1.5rem 7rem;
+  background: radial-gradient(whitesmoke 40%, rgba(255, 255, 255, 0) 80%);
+}

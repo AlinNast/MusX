@@ -14,10 +14,28 @@
 
 .title {
   font-size: 2.5rem;
-  
+
 }
 
-.gradientContainer{
+
+.gradientContainer {
   padding: 1.5rem 7rem;
   background: radial-gradient(whitesmoke 40%, rgba(255, 255, 255, 0) 80%);
+}
+
+.card {
+  transition: 0.5s;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.411);
+}
+
+.card:hover {
+  border-style: outset;
+  border-radius: 1.3rem;
+  border-bottom-right-radius: 1.8rem;
+  border-top-left-radius: 1.8rem;
+  border-color: rgb(38, 10, 10);
+  background-color: white;
 }

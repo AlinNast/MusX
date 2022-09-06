@@ -17,7 +17,7 @@ export default function Home() {
           Welcome to MusX
         </h1>
 
-        <p className={`${styles.description}, ${styles.gradientContainer}`}>
+        <p className={` ${styles.gradientContainer}`}>
           Our mission is to create a big FREE database for music scores and tabs
         </p>
 

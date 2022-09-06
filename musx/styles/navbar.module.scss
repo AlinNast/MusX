@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 6rem;
+    width: 100%;
+    top: 0px;
+    right: 0px; 
+    left: 0px;
+    background-image: url('/images/navbarImage.jpg');
+}

@@ -1,7 +1,10 @@
- export default function Navbar() {
+import Link from 'next/link';
+import styles from '../styles/navbar.module.scss';
+
+export default function Navbar() {
     return(
-        <h1>
-            here will be navbar
-        </h1>
+        <nav className={styles.navbar}>
+            <Link href="/"><h3>Home</h3></Link>
+        </nav>
     )
  }

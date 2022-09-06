@@ -13,7 +13,6 @@ export default function ScoreList() {
             </Head>
 
             <div >
-            <Link href="/"> MusX </Link>
             <h1>Take a look at all the scores we have</h1>
 
             <ul>

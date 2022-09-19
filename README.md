@@ -14,6 +14,10 @@
  - npm https://www.npmjs.com/
 
 ## How to install:
+ - open terminal and cd into Musx/musx
+ - run `npm install next`
+ - run `npm run dev`
+ - open browser on "localhost:3000"
 
 ## Documentation:
  <!-- - https://auth0.com/blog/using-python-flask-and-angular-to-build-modern-apps-part-1/ -->

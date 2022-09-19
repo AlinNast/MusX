@@ -1,12 +1,64 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
     height: 6rem;
     width: 100%;
     top: 0px;
-    right: 0px; 
+    right: 0px;
     left: 0px;
     background-image: url('/images/navbarImage.jpg');
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 3rem;
+    margin: 10px;
+
+    &:hover {
+        color: rgb(random(255), random(255), random(255));
+        cursor: pointer;
+    }
+
+}
+
+.button {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin: 15px 100px 0;
+
+    &:hover {
+        color: rgb(random(255), random(255), random(255));
+        cursor: pointer;
+    }
+
+    &_disabled {
+        color: whitesmoke;
+        font-size: 1.5rem;
+        margin: 15px 100px 0;
+
+        &:before {
+            content: attr(data-hover);
+            visibility: hidden;
+            opacity: 0;
+            width: fit-content;
+            background-color: rgb(56, 55, 49);
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px 0;
+            transition: opacity 1s ease-in-out;
+
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            top: 110%;
+        }
+
+        &:hover:before {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
 }
